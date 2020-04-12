@@ -1,0 +1,66 @@
+/*Selectores de etiqueta*/
+body {
+		/*esto afecta el margen del body completo*/
+		font-family: sans-serif;
+		margin:0;
+}
+
+header, h2, h3 {
+				text-transform: uppercase;
+				color: #fff;
+				text-align: center;
+}
+
+header, h2 {
+			background:  #2d567a;
+			padding: 2em;
+			text-shadow: 2px 2px 2px black;
+}
+
+h2 {
+	background: #1768ac;	
+}
+
+h3 {
+	background: #a4243b;
+	padding: 1em;	
+	text-shadow: 2px 2px 2px black;
+}
+
+/*Selectores de Clase*/
+.importante {
+				text-transform: uppercase;
+				font-weight: bold;
+				font-style: italic;
+
+}
+
+.padre {
+		margin: auto;
+		width: 50%;
+}
+
+
+.hijo {
+		display:block;
+		margin:auto;
+		padding: 1em;
+}
+
+.dos {
+	/*grueso del body*/
+	padding:1em;
+	/*centrar el texto*/
+	text-align: center;
+}
+
+.resaltado_naranja {
+					background: orange;
+					display: inline-block;					
+}
+
+.resaltado_verde {
+					background: #49dcb1;
+					display: inline-block;
+					
+}
